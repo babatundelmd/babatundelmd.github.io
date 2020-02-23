@@ -50,12 +50,8 @@
 }
 
 input:checked + .slider {
-  background-color: #3c454c;
+  background-color: #707477;
 }
-
-/* input:focus + .slider {
-  box-shadow: 0 0 3px #3c454c;
-} */
 
 input:checked + .slider:before {
   -webkit-transform: translateX(26px);
@@ -85,6 +81,12 @@ input:checked + .slider:before {
   padding-top: 40vh;
   background: #f8f6f8;
 }
+
+.darktheme{
+  background: #3c454c !important;
+  color: white;
+}
+
 .container-one h2 {
   font-weight: 600;
 }
