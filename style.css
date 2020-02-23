@@ -228,6 +228,16 @@ input:checked + .slider:before {
 
   }
 
+  .container-one .toggle {
+    position: absolute;
+    padding: 20px 0px;
+  }
+
+.container-one .details {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
   .container-one {
     background: #f8f6f8;
     padding: 1.5rem;
@@ -254,6 +264,11 @@ input:checked + .slider:before {
     grid-template-columns: repeat(2, auto);
     column-gap: 5px;
     width: 100%;
+  }
+
+  .card-details {
+   top: 12rem;
+
   }
 
 .card-info img {
