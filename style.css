@@ -103,19 +103,21 @@ h1 {
 
 .btn {
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 24px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
     text-decoration: none;
     display: inline-block;
     margin-right: 10px;
+    width: fit-content;
 }
 
 .btn-primary {
-    background-color: #F7C64A;
+    /* background-color: #F7C64A; */
     color: #333;
-    border: none;
+    border: 1px solid #333;
+
 }
 
 .btn-secondary {
@@ -177,15 +179,26 @@ h1 {
     gap: 60px;
 }
 
+.btn-secondary {
+  border-radius: 8px;
+  border: 2px solid #333;
+}
+
+.btn-square-yellow {
+  background-color: #F7C64A;
+  border-radius: 8px;
+}
+
 .project-card {
     display: flex;
-    background-color: #f9f9f9;
-    border-radius: 10px;
+    /* background-color: red; */
+    border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     opacity: 0;
     transform: translateY(30px);
     transition: all 0.8s ease;
+    border: 1px solid #ddd;
 }
 
 .project-card:nth-child(even) {
