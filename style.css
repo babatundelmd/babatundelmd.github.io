@@ -61,7 +61,8 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #F7C64A;
+    text-decoration: underline;
+    /* color: #F7C64A; */
 }
 
 .hero {
